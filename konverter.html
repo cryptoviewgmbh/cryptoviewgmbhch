@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta http-equiv="refresh" content="60">
+        <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="og:title" content="CryptoView AT"/>
+		<meta name="description" content="Watch It Now">
+		<meta name="keywords" content="crypto, austria, at, coin, blockchain, chain"/>
+                <meta name="author" content="Arlind Abdurahmani">
+                <meta name="og:image" content="img/crypptoview-logo.png" />
+        <meta name="theme-color" content="#F7931A"/>
+        
+         <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="asset/style.css">
+
+    <title>CryptoView • Austria</title>
+</head>
+<body>
+      
+        <script type="text/javascript" src="currency.js"></script>
+       
+    <section class="header">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="konverter.html"><h5 class="navmenutitle">CryptoView • Konverter</h5>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="converter.html">Konverter</a>
+                  </ul>
+                </div>
+              </nav>
+    </section>
+    <section class="cryptos">
+        <section class="container">
+                <div class="row">
+                        <script type="text/javascript" src="bitcoin-converter.js">
+                            var scripts = document.getElementsByTagName("script");
+                            var embedder = scripts[ scripts.length - 1 ];
+                            var cccTheme = {"General":{"headerText":"Krypto-Konverter"},"Form":{"labelFrom":"Ich gebe","labelTo":"Ich bekomme"}};
+                            (function (){
+                            var appName = encodeURIComponent(window.location.hostname);
+                            if(appName==""){appName="local";}
+                            var s = document.createElement("script");
+                            s.type = "text/javascript";
+                            s.async = true;
+                            s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                            embedder.parentNode.appendChild(s);
+                            })();
+                            </script>
+                            
+                            <script type="text/javascript"src="litecoin-converter.js">
+                                var scripts = document.getElementsByTagName("script");
+                                var embedder = scripts[ scripts.length - 1 ];
+                                var cccTheme = {"General":{"headerText":"Krypto-Konverter"},"Form":{"labelFrom":"Ich gebe","labelTo":"Ich bekomme"}};
+                                (function (){
+                                var appName = encodeURIComponent(window.location.hostname);
+                                if(appName==""){appName="local";}
+                                var s = document.createElement("script");
+                                s.type = "text/javascript";
+                                s.async = true;
+                                s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                                embedder.parentNode.appendChild(s);
+                                })();
+                                </script>
+                                
+                </div>
+            </section>
+        </section>
+</body>
+</html>

@@ -19,46 +19,155 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="asset/style.css">
 
-    <title>CryptoView .AT</title>
+    <title>CryptoView • Austria</title>
 </head>
 <body>
       
         <script type="text/javascript" src="currency.js"></script>
        
     <section class="header">
-            <nav class="navbar navbar-expand-lg navbar-light ">
-                    <a class="navbar-brand" href="index.html"><h3 class="navmenutitle">CryptoView .AT</h3></a>
-                  </nav>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#"><h3 class="navmenutitle">CryptoView • Austria</h3></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="konverter.html">Konverter</a>
+                  </ul>
+                </div>
+              </nav>
     </section>
     <section class="cryptos">
     <section class="container">
             <div class="row">
-                    <div class="coinmarketcap-currency-widget" data-currency="bitcoin" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="litecoin" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="ethereum" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="zcash" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="bitcoin-cash" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="tether" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="eos" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="waves" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="dai" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="monero" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="cardano" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="stellar" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="tron" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="dash" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="tezos" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="maker" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="chainlink" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="cosmos" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="nem" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="zb" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="bitcoin-gold" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="holo" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="icon" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="nano" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="qtum" data-base="eur" data-secondary="BTC"></div>
-                    <div class="coinmarketcap-currency-widget" data-currency="lisk" data-base="eur" data-secondary="BTC"></div>
+                <script type="text/javascript" src="bitcoin.js">
+                        var scripts = document.getElementsByTagName("script");
+                        var embedder = scripts[ scripts.length - 1 ];
+                        var cccTheme = {"Followers":{"color":"#F7931A"}};
+                        (function (){
+                        var appName = encodeURIComponent(window.location.hostname);
+                        if(appName==""){appName="local";}
+                        var s = document.createElement("script");
+                        s.type = "text/javascript";
+                        s.async = true;
+                        s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                        embedder.parentNode.appendChild(s);
+                        })();
+                        </script>
+
+<script type="text/javascript" src="litecoin.js">
+        var scripts = document.getElementsByTagName("script");
+        var embedder = scripts[ scripts.length - 1 ];
+        (function (){
+        var appName = encodeURIComponent(window.location.hostname);
+        if(appName==""){appName="local";}
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+        embedder.parentNode.appendChild(s);
+        })();
+        </script>
+        
+        <script type="text/javascript"src="etherneum.js">
+                var scripts = document.getElementsByTagName("script");
+                var embedder = scripts[ scripts.length - 1 ];
+                (function (){
+                var appName = encodeURIComponent(window.location.hostname);
+                if(appName==""){appName="local";}
+                var s = document.createElement("script");
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                embedder.parentNode.appendChild(s);
+                })();
+                </script>
+                
+                <script type="text/javascript"src="zcash.js">
+                        var scripts = document.getElementsByTagName("script");
+                        var embedder = scripts[ scripts.length - 1 ];
+                        (function (){
+                        var appName = encodeURIComponent(window.location.hostname);
+                        if(appName==""){appName="local";}
+                        var s = document.createElement("script");
+                        s.type = "text/javascript";
+                        s.async = true;
+                        s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                        embedder.parentNode.appendChild(s);
+                        })();
+                        </script>
+
+<script type="text/javascript" src="bitcoin-cash.js">
+        var scripts = document.getElementsByTagName("script");
+        var embedder = scripts[ scripts.length - 1 ];
+        (function (){
+        var appName = encodeURIComponent(window.location.hostname);
+        if(appName==""){appName="local";}
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+        embedder.parentNode.appendChild(s);
+        })();
+        </script>
+        
+        <script type="text/javascript"src="dash.js">
+                var scripts = document.getElementsByTagName("script");
+                var embedder = scripts[ scripts.length - 1 ];
+                (function (){
+                var appName = encodeURIComponent(window.location.hostname);
+                if(appName==""){appName="local";}
+                var s = document.createElement("script");
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                embedder.parentNode.appendChild(s);
+                })();
+                </script>
+                
+                <script type="text/javascript"src="monero.js">
+                        var scripts = document.getElementsByTagName("script");
+                        var embedder = scripts[ scripts.length - 1 ];
+                        (function (){
+                        var appName = encodeURIComponent(window.location.hostname);
+                        if(appName==""){appName="local";}
+                        var s = document.createElement("script");
+                        s.type = "text/javascript";
+                        s.async = true;
+                        s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                        embedder.parentNode.appendChild(s);
+                        })();
+                        </script>
+
+<script type="text/javascript" src="waves.js">
+        var scripts = document.getElementsByTagName("script");
+        var embedder = scripts[ scripts.length - 1 ];
+        (function (){
+        var appName = encodeURIComponent(window.location.hostname);
+        if(appName==""){appName="local";}
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+        embedder.parentNode.appendChild(s);
+        })();
+        </script>
+        
+        <script type="text/javascript"src="eos.js">
+                var scripts = document.getElementsByTagName("script");
+                var embedder = scripts[ scripts.length - 1 ];
+                (function (){
+                var appName = encodeURIComponent(window.location.hostname);
+                if(appName==""){appName="local";}
+                var s = document.createElement("script");
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                embedder.parentNode.appendChild(s);
+                })();
+                </script>
+                
             </div>
     </section>
 </section>
