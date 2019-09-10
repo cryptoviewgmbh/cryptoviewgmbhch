@@ -114,13 +114,13 @@ labelDiv.style.height       = '50px';
 labelDiv.style.padding      = '10px';
 labelDiv.style.borderBottom = '1px solid ' + cccCurrentTheme.General.borderColor;
 labelDiv.style.boxSizing    = "border-box";
-labelDiv.innerHTML          = '<a href="https://www.cryptocompare.com/coins/eos/overview" rel="nofollow" target="_blank" style="color: ' + cccCurrentTheme.Header.color + '; text-decoration: none;">  <img src="https://www.cryptocompare.com/media/1383652/eos_1.png?width=26&height=26&mode=crop&center=0.0,0.0" style="width: 26px; height: 26px; vertical-align: middle; margin-bottom: 3px; ' + propsImageReset + '">   EOS</a><a href="https://www.cryptocompare.com/coins/eos/overview" rel="nofollow" style="display: inline-block; float: right; background: ' + cccCurrentTheme.Followers.background + '; border: 1px solid ' + cccCurrentTheme.Followers.borderColor  + '; border-radius: 10px; padding-left: 15px; padding-right: 15px; font-size: 13px; line-height: 25px; margin-top: 2px; text-decoration: none; color: ' + cccCurrentTheme.Followers.color + ';">  EUR 1 Month Chart</a>';
+labelDiv.innerHTML          = '<a href="https://www.cryptoview.at" rel="nofollow" target="_blank" style="color: ' + cccCurrentTheme.Header.color + '; text-decoration: none;">  <img src="https://www.cryptocompare.com/media/1383652/eos_1.png?width=26&height=26&mode=crop&center=0.0,0.0" style="width: 26px; height: 26px; vertical-align: middle; margin-bottom: 3px; ' + propsImageReset + '">   EOS</a><a href="https://www.cryptoview.at" rel="nofollow" style="display: inline-block; float: right; background: ' + cccCurrentTheme.Followers.background + '; border: 1px solid ' + cccCurrentTheme.Followers.borderColor  + '; border-radius: 10px; padding-left: 15px; padding-right: 15px; font-size: 13px; line-height: 25px; margin-top: 2px; text-decoration: none; color: ' + cccCurrentTheme.Followers.color + ';">  EUR 1 Month Chart</a>';
 
 priceDiv.style.fontSize = '25px';
 priceDiv.style.fontWeight = '700';
 priceDiv.style.padding = '10px';
 priceDiv.style.paddingBottom = '0px';
-priceDiv.innerHTML= '<a title="EOS Price and market cap" rel="nofollow" href="https://www.cryptocompare.com/coins/eos/overviewoverview/EUR" target="_blank" style="color: ' + cccCurrentTheme.Data.priceColor + '; text-decoration: none;">  <span style="color: ' + cccCurrentTheme.Data.priceColor + '"> € 3.51  </span>   <span style="font-size: 13px; font-weight: bold; color: ' + cccCurrentTheme.Trend.colorDown + ';"> (-2.93%)  </span></a>';
+priceDiv.innerHTML= '<a title="EOS Price and market cap" rel="nofollow" href="https://www.cryptoview.at" target="_blank" style="color: ' + cccCurrentTheme.Data.priceColor + '; text-decoration: none;">  <span style="color: ' + cccCurrentTheme.Data.priceColor + '"> € 3.51  </span>   <span style="font-size: 13px; font-weight: bold; color: ' + cccCurrentTheme.Trend.colorDown + ';"> (-2.93%)  </span></a>';
 
 
 lastUpdateDiv.style.float = 'left';

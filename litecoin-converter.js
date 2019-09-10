@@ -209,7 +209,7 @@ class="histoTitleConverter" style="color:${cccCurrentTheme.General.headerTextCol
 		</div>
 	</form>
 	<div class="poweredByWrapper">
-		<a href="https://www.cryproview.at" target="_blank" class="poweredBy" rel="nofollow">
+		<a href="https://www.cryptoview.at" target="_blank" class="poweredBy" rel="nofollow">
 			<span style="vertical-align: middle;">Powered by</span>
 			<img
 				src="img/crypptoview-logo.png"
