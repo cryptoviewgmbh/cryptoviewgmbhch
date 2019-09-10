@@ -114,7 +114,7 @@ labelDiv.style.height       = '50px';
 labelDiv.style.padding      = '10px';
 labelDiv.style.borderBottom = '1px solid ' + cccCurrentTheme.General.borderColor;
 labelDiv.style.boxSizing    = "border-box";
-labelDiv.innerHTML          = '<a href="https://www.cryptoview.at" rel="nofollow" target="_blank" style="color: ' + cccCurrentTheme.Header.color + '; text-decoration: none;">  <img src="https://www.cryptocompare.com/media/27010639/waves2.png?width=26&height=26&mode=crop&center=0.0,0.0" style="width: 26px; height: 26px; vertical-align: middle; margin-bottom: 3px; ' + propsImageReset + '">   WAVES</a><a href="https://www.cryptoview.at" rel="nofollow" style="display: inline-block; float: right; background: ' + cccCurrentTheme.Followers.background + '; border: 1px solid ' + cccCurrentTheme.Followers.borderColor  + '; border-radius: 10px; padding-left: 15px; padding-right: 15px; font-size: 13px; line-height: 25px; margin-top: 2px; text-decoration: none; color: ' + cccCurrentTheme.Followers.color + ';">  EUR 1 Month Chart</a>';
+labelDiv.innerHTML          = '<a href="https://www.cryptoview.at" rel="nofollow" target="_blank" style="color: ' + cccCurrentTheme.Header.color + '; text-decoration: none;">  <img src="https://www.cryptocompare.com/media/27010639/waves2.png?width=26&height=26&mode=crop&center=0.0,0.0" style="width: 26px; height: 26px; vertical-align: middle; margin-bottom: 3px; ' + propsImageReset + '">   WAVES</a><a href="https://www.cryptoview.at" rel="nofollow" style="display: inline-block; float: right; background: ' + cccCurrentTheme.Followers.background + '; border: 1px solid ' + cccCurrentTheme.Followers.borderColor  + '; border-radius: 10px; padding-left: 15px; padding-right: 15px; font-size: 13px; line-height: 25px; margin-top: 2px; text-decoration: none; color: ' + cccCurrentTheme.Followers.color + ';">  EUR 1 Monat Chart</a>';
 
 priceDiv.style.fontSize = '25px';
 priceDiv.style.fontWeight = '700';
@@ -131,7 +131,7 @@ lastUpdateDiv.style.marginRight = '0px';
 lastUpdateDiv.style.paddingLeft = '10px';
 lastUpdateDiv.style.marginTop = '0px';
 lastUpdateDiv.style.marginBottom = '5px';
-lastUpdateDiv.innerHTML= '<span style="color: ' + cccCurrentTheme.Data.infoLabelColor +  '">  Last updated:</span>  <span style="color: ' + cccCurrentTheme.Data.infoValueColor + '">    12 min ago  </span>';
+lastUpdateDiv.innerHTML= '<span style="color: ' + cccCurrentTheme.Data.infoLabelColor +  '">  Letzte Aktualisierung:</span>  <span style="color: ' + cccCurrentTheme.Data.infoValueColor + '">    12 min ago  </span>';
 
 marketCapDiv.style.float = 'right';
 marketCapDiv.style.fontSize = '11px';
