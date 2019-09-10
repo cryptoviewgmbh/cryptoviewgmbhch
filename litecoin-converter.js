@@ -91,7 +91,7 @@ var cccCurrentTheme = {
 		headerTextColor: '#000',
 		headerTextSize: '25px',
 		poweredByColor: '#000',
-		headerText: 'Crypto Converter'
+		headerText: 'Krypto Konverter'
 	},
 	Form: {
 		inputBackground: '#FFF',
@@ -100,8 +100,8 @@ var cccCurrentTheme = {
 		borderRadius: '0 0 0 0',
 		labelColor: '#555',
 		inputColor: '#000',
-		labelFrom: 'I give',
-		labelTo: 'I get'
+		labelFrom: 'Ich gebe',
+		labelTo: 'Ich bekomme'
 	}
 };
 
